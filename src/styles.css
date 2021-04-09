@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  font-size: 62.5%;
+  background: gray;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+h4 {
+  color: white;
+}
+h1 {
+  text-transform: capitalize;
+}
+button {
+  margin: 0.3rem;
+}
+button {
+  background-color: #e5e5e5;
+  border: 1px solid #b2b2b2;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+button:hover,
+button:focus {
+  background-color: blue;
+  box-shadow: 0 0 5px 0 #b2b2b2;
+  color: whitesmoke;
+}
+.books {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+li {
+  border: 5px solid white;
+  list-style: none;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 1rem;
+}
